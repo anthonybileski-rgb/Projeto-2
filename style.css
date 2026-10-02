@@ -1,0 +1,39 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(1, 0, 3);
+    color: blanchedalmond;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(0, 153, 255);
+    padding: 30px;
+    text-align: center;
+
+}
+    header h1{
+        margin: 0;
+        font-size: 40px;
+        color: rgb(5, 0, 0);
+    }
+    header p{
+        color: rgb(0, 0, 19);
+        font-size: 20px;
+    }
+    main{
+        max-width: 700px;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+    top-iten{
+        display: flex;
+        align-items: center;
+        background-color: aquamarine;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 8px blueviolet;
+        gap:15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
